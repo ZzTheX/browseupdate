@@ -282,8 +282,9 @@ footer #shar {
 }
 #byline {
     clear: both;
-    margin: 0 auto;
+    margin: 0 15px;
     padding-top: 10px;
+    display: inline-block;
 }
 #byline a {
     width: 300px;
@@ -296,9 +297,4 @@ footer #shar {
     -o-transition: all .5s;
     transition: all .5s;
 }
-#byline span {
-    vertical-align: super;
-    text-transform: uppercase;
-    color: #000;
-    font-size: 25px;
-}
+#byline iframe {display: inline-block;width: 90px;}
