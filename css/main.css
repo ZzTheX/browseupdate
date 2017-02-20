@@ -296,3 +296,9 @@ footer #shar {
     -o-transition: all .5s;
     transition: all .5s;
 }
+#byline span {
+    vertical-align: super;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 25px;
+}
